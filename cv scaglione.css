@@ -1,0 +1,180 @@
+* {margin: 0;padding: 0;}
+
+body{font-family: 'Roboto', sans-serif;
+     background-image: url(fondo.webp); 
+	object-fit: auto;}
+
+#recuadro {
+    min-height: 200px;
+    width: 60%;
+    min-width: 600px;
+    background: #dcebeb;
+    margin: 50px auto;
+    padding: 30px;
+    color: #0f8b15;
+}
+
+
+.photo {
+    width: 15%;
+    min-width: 130px;
+    float: left;
+    margin-right: 20px;
+}
+
+.info-contacto {
+    width: 70.9%;
+    display: inline-block;
+}
+
+.nombre {
+    margin-bottom: -5px;
+}
+.profesion {
+    display: inline-block;
+}
+
+.detallesdecontacto {
+	background: linear-gradient(#55680D, #71F53E, #116C31);
+	box-shadow: 5px 5px 5px green;
+    color: black;
+    text-align: center;
+    margin: auto;
+    margin-top: 25px;
+    padding: 5px;
+    font-size: 15px, bold;
+}
+
+#Objetivos h3 {
+    border: 1px solid #d3d3d3;
+	box-shadow: 5px 5px 5px green;
+    text-transform: uppercase;
+    padding: 5px;
+    border-radius: 5px;
+    margin: 30px 0 10px;
+}
+
+#Objetivos p {
+    padding: 0 5px;
+    line-height: 25px;
+    font-size: 14px;
+    color: #000;
+}
+
+#estudios h3 {
+    border: 1px solid #d3d3d3;
+	box-shadow: 5px 5px 5px green;
+    text-transform: uppercase;
+    padding: 5px;
+    border-radius: 5px;
+    margin: 30px 0 10px;
+}
+
+#estudios table td {
+    padding: 5px;
+    font-size: 14px;
+    color: #000;
+}
+
+#estudios table tr.escuela-1 td:first-child {
+    width: 120px;
+    color: gray;
+    padding-bottom: 25px;
+}
+
+#estudios table tr.escuela-2 td:first-child {
+    padding-bottom: 25px;
+}
+
+#experiencia h3 {
+    border: 1px solid #d3d3d3;
+	box-shadow: 5px 5px 5px green;
+    text-transform: uppercase;
+    padding: 5px;
+    border-radius: 5px;
+    margin: 30px 0 10px;
+}
+
+#experiencia table td {
+    padding: 5px;
+    font-size: 14px;
+    color: #000;
+}
+
+#experiencia table tr.trabajo1 td:first-child {
+    width: 120px;
+    color: gray;
+    padding-bottom: 25px;
+}
+
+#experiencia table tr.trabajo1 td {
+    padding-bottom: 25px;
+}
+
+#experiencia table tr.trabajo2 td:first-child {
+    width: 120px;
+    color: gray;
+}
+
+#infopersonal h3 {
+    border: 1px solid #d3d3d3;
+	box-shadow: 5px 5px 5px green;
+    text-transform: uppercase;
+    padding: 5px;
+    border-radius: 5px;
+    margin: 30px 0 10px;
+}
+
+#infopersonal table td {
+    padding: 8px;
+    font-size: 15px;
+    color: #000;
+}
+
+#infopersonal table tr td:first-child {
+    width: 200px;
+}
+
+#infopersonal table tr td:nth-child(2) {
+    width: 300px;
+}
+
+.boton {
+    display: block;
+    width: 60%;
+    margin: 0 auto;
+    height: 2em;
+    font-size: 1.1rem;
+    background-color: green;
+    border-color: black;
+  }
+
+  label {
+    display: block;
+    margin: 0.5rem 0;
+    border-style: none;
+    color: black;
+  }
+  
+  fieldset{
+    border: none;
+
+  }
+  #dejar-contacto h3 {
+    border: 1px solid #d3d3d3;
+	box-shadow: 5px 5px 5px green;
+    text-transform: uppercase;
+    padding: 5px;
+    border-radius: 5px;
+    margin: 30px 0 10px;
+}
+
+#dejar-contacto table td {
+    padding: 8px;
+    font-size: 15px;
+    color: #000;
+}
+
+#dejar-contacto table tr td:first-child {
+    width: 200px;
+}

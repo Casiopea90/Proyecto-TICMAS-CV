@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Proyecto Final CV</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="cv scaglione.css">
+</head>
+<body>
+   
+<div id="recuadro">
+    <div class="foto-nombre">
+        <img src="foto.jpg" class="photo" alt="Foto Perfil">
+        <div class="info-contacto">
+            <h1 class="nombre">Carla Powell</h1>
+            <br>
+            <h3 class="profesion">Diseñadora Gráfica</h3>
+            <p class="detallesdecontacto">Teléfono: 11-1234-5679 &nbsp; - &nbsp; Email: carlapowell@example.com</p>
+        </div>
+    </div>
+    <div id="Objetivos">
+        <h3>Objetivos</h3>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce vitae euismod orci, 
+            a mattis lorem. Sed sagittis sollicitudin justo id efficitur. Sed laoreet velit nulla, 
+            rutrum accumsan leo luctus in. Phasellus id elementum mauris, in facilisis urna. In dictum,
+            erat non sollicitudin scelerisque, augue urna bibendum nulla, non tristique ex eros quis enim. 
+            Morbi imperdiet sapien sit amet varius fringilla. Aliquam erat volutpat. Praesent eget turpis nunc. 
+            Donec tempor tincidunt ultricies. 
+    </div>
+    <div id="estudios">
+        <h3>Estudios</h3>
+        <table>
+            <tr class="escuela-1">
+                <td rowspan="2">2002 - 2015</td>
+                <td><b>Primario</b>: Nacional N°3</td>
+            </tr>
+            <tr class="escuela-2">
+                <td><b>Secundario</b>: Nacional N°4</td>
+            </tr>
+            
+            <tr class="escuela-1">
+                <td rowspan="2">2012 - 2014</td>
+                <td><b>Curso Inglés</b>: English Micro Scholarship Program by US Consolate</td>
+            </tr>
+            <tr class="escuela-2">
+                <td><b>ABC Academy</b>: Diseño Web(HTML, CSS, JS, Bootstrap)</td>
+            </tr>
+            
+            <tr>
+                <td style="width: 120px; color: gray;">2015 - 2020</td>
+                <td><b>Carrera de Grado</b>: Diseñadora Gráfica (UBA)</td>
+            </tr>
+        </table>
+    </div>
+    <div id="experiencia">
+        <h3>Experiencia Laboral</h3>
+        <table>
+            <tr class="trabajo1">
+                <td>2014 - 2015</td>
+                <td><b>Empresa 123</b>: Representante de Ventas</td>
+            </tr>
+            <tr class="trabajo2">
+                <td>2015 - Hasta la Fecha</td>
+                <td><b>ABZ S.A.</b>: Directora de IT, Representante y Coordinadora de Ventas</td>
+            </tr>
+ 
+        </table>
+    </div>
+    <div id="infopersonal">
+        <h3>Información Personal</h3>
+        <table>
+            <tr>
+                <td>Nombre:</td>
+                <td><b>Carla Powell</b></td>
+            </tr>
+            <tr>
+                <td>Fecha de Nacimiento:</td>
+                <td><b>01 / 02 / 1994</b></td>
+            </tr>
+            <tr>
+                <td>DNI:</td>
+                <td><b>40.XXX.XXX</b></td>
+            </tr>
+            <tr>
+                <td>Nationalidad:</td>
+                <td><b>Argentina</b></td>
+            </tr>
+            <tr>
+                <td>Estado Civil:</td>
+                <td><b>Soltera</b></td>
+            </tr>
+			<tr>
+                <td>Dirección:</td>
+                <td><b>2738 Oak Ridge</b></td>
+            </tr>
+        </table>
+    </div>
+     <div id="dejar-contacto"> 
+        <h3> Dejeme su Contacto </h3>
+        <form method="post" action='https://registro.abcd'>
+            <fieldset>
+              <label for="nombre1">Nombre: <input placeholder ="Maria Vazques" id="nombre1" name="nombre1" type="text" required /></label>
+              <label for="email1">Email: <input placeholder ="123@gmail.com" id="email1" name="email1" type="email" required /></label>
+            </fieldset> 
+            <button onclick="cambioMensaje()" class="boton" id="boton"> Contactar! </button>
+            <script src="cv scaglione.js"></script>
+    </div>
+</body>
+</html>
